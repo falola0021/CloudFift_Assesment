@@ -1,59 +1,96 @@
-.footerContainer{
-    margin-top: 50px;
-    border-top: 1px solid #E5E5E5;
-    padding-top: 30px;
-    background: #fff;
+.footerContainer {
+  margin-top: 50px;
+  border-top: 1px solid #e5e5e5;
+  padding-top: 30px;
+  background: #fff;
 }
-.header{
+.header {
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  color: #3f403f;
+}
+.subHead {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #3f403f;
+  margin-top: 12px;
+  cursor: pointer;
+}
+.text:hover {
+  text-decoration: underline;
+}
+
+.info {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #3f403f;
+  margin-top: 12px;
+}
+.iconContainer {
+  display: flex;
+  margin-top: 12px;
+}
+.iconBg {
+  background: rgba(6, 148, 42, 0.17);
+  padding: 5px 11px 8px 11px;
+  border-radius: 50%;
+  margin-right: 4px;
+  color: #06942a;
+}
+.copyright {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #9b9b9b;
+  text-align: center;
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 320px) {
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  .header {
+    font-size: 14px;
+  }
+}
+@media (min-width: 480px) {
+  /* smartphones, Android phones, landscape iPhone */
+  .header {
+    font-size: 14px;
+  }
+}
+@media (min-width: 600px) {
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  .header {
     font-size: 18px;
-    font-weight: 500;
-    font-style: normal;
-    color: #3F403F;
+  }
 }
-.subHead{
-margin-top: 12px;
-}
-.text{
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-color: #3F403F;
-margin-top: 12px;
-cursor: pointer;
+@media (min-width: 801px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
 
+  .header {
+    font-size: 18px;
+  }
 }
-.text:hover{
-    text-decoration: underline;
+@media (min-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+  .header {
+    font-size: 18px;
+  }
 }
+@media (min-width: 1281px) {
+  /* hi-res laptops and desktops */
 
-.info{
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-color: #3F403F;
-margin-top: 12px;
+  .header {
+    font-size: 18px;
+  }
 }
-.iconContainer{
-display: flex;
-margin-top: 12px;
-}
-.iconBg{
- background: rgba(6, 148, 42, 0.17); 
-padding:5px 11px 8px 11px;
-border-radius: 50%;
-margin-right: 4px;
-color: #06942A;
-}
-.copyright{
-    font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height: 14px;
-color: #9B9B9B;
-text-align: center;
-width: 100%;
-margin-top: 100px;
-margin-bottom: 20px;
-}
-
-

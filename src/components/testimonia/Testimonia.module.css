@@ -1,64 +1,429 @@
-.container{
+.container {
+  margin-top: 15%;
+  position: relative;
+}
+.title {
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #3f3f3f;
+}
+.cardContainer {
+  display: flex;
+  align-items: center;
+}
+.testimony {
+  width: 667px;
+  font-family: Graphik;
+  font-size: 18px;
+  line-height: 200%;
+  color: #3f403f;
+}
+.tag {
+  position: absolute;
+  top: 50px;
+}
+.namebox {
+  padding: 80px;
+}
+.name {
+  font-size: 21px;
+
+  color: #3f403f;
+  margin: 30px 0;
+}
+.role {
+  font-size: 21px;
+
+  color: #9b9b9b;
+}
+.image {
+  width: 350px;
+  height: auto;
+}
+
+.arrowContainer {
+  display: flex;
+  margin-top: 20px;
+  position: absolute;
+  top: 120px;
+  right: 120px;
+}
+.arrowLeft {
+  font-size: 40px;
+  color: #dbdbdb;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.arrowRight {
+  font-size: 40px;
+  cursor: pointer;
+  color: #06942a;
+}
+
+@media (min-width: 320px) {
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  .image {
+    width: 100px;
+    height: auto;
+  }
+  .title {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #3f3f3f;
+  }
+  .testimony {
+    width: 100%;
+
+    font-size: 18px;
+
+    color: #3f403f;
+  }
+  .cardContainer {
+    display: inline-block;
+  }
+  .tag {
+    /* position: absolute; */
+    top: 200px;
+  }
+  .namebox {
+    padding: 0px;
+  }
+  .namebox {
+    padding: 0px;
+  }
+  .name {
+    margin: 15px 0;
+  }
+  .arrowContainer {
+    right: 50px;
+  }
+}
+@media (min-width: 480px) {
+  /* smartphones, Android phones, landscape iPhone */
+  .image {
+    width: 100px;
+    height: auto;
+  }
+  .title {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #3f3f3f;
+  }
+  .testimony {
+    width: 100%;
+
+    font-size: 18px;
+
+    color: #3f403f;
+  }
+  .cardContainer {
+    display: inline-block;
+  }
+  .tag {
+    /* position: absolute; */
+    top: 200px;
+  }
+  .namebox {
+    padding: 0px;
+  }
+  .namebox {
+    padding: 0px;
+  }
+  .name {
+    margin: 15px 0;
+  }
+  .arrowContainer {
+    right: 50px;
+  }
+}
+@media (min-width: 600px) {
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  .image {
+    width: 100px;
+    height: auto;
+  }
+  .title {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #3f3f3f;
+  }
+  .testimony {
+    width: 100%;
+
+    font-size: 18px;
+
+    color: #3f403f;
+  }
+  .cardContainer {
+    display: inline-block;
+  }
+  .tag {
+    /* position: absolute; */
+    top: 200px;
+  }
+  .namebox {
+    padding: 0px;
+  }
+  .namebox {
+    padding: 0px;
+  }
+  .name {
+    margin: 15px 0;
+  }
+  .arrowContainer {
+    right: 50px;
+  }
+}
+@media (min-width: 801px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  container {
     margin-top: 15%;
     position: relative;
-}
-.title{
+  }
+  .title {
     font-size: 36px;
-margin-bottom: 30px;
-color: #3f3f3f;
-}
-.cardContainer{
+    margin-bottom: 30px;
+    color: #3f3f3f;
+  }
+  .cardContainer {
     display: flex;
     align-items: center;
-}
-.testimony{
+  }
+  .testimony {
     width: 667px;
     font-family: Graphik;
-font-size: 18px;
-line-height: 200%;
-color: #3F403F;
-
-}
-.tag{
-position: absolute;
-    top:50px
-}
-.namebox{
+    font-size: 18px;
+    line-height: 200%;
+    color: #3f403f;
+  }
+  .tag {
+    position: absolute;
+    top: 50px;
+  }
+  .namebox {
     padding: 80px;
-}
-.name{
+  }
+  .name {
     font-size: 21px;
 
-color: #3F403F;
-margin:30px 0
-}
-.role{
+    color: #3f403f;
+    margin: 30px 0;
+  }
+  .role {
     font-size: 21px;
 
-color: #9B9B9B;
-}
-.image{
+    color: #9b9b9b;
+  }
+  .image {
     width: 350px;
     height: auto;
-}
+  }
 
-.arrowContainer{
+  .arrowContainer {
+    display: flex;
+    margin-top: 20px;
+    position: absolute;
+    top: 120px;
+    right: 120px;
+  }
+  .arrowLeft {
+    font-size: 40px;
+    color: #dbdbdb;
+    margin-right: 30px;
+    cursor: pointer;
+  }
+  .arrowRight {
+    font-size: 40px;
+    cursor: pointer;
+    color: #06942a;
+  }
+  container {
+    margin-top: 15%;
+    position: relative;
+  }
+  .title {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #3f3f3f;
+  }
+  .cardContainer {
+    display: flex;
+    align-items: center;
+  }
+  .testimony {
+    width: 667px;
+    font-family: Graphik;
+    font-size: 18px;
+    line-height: 200%;
+    color: #3f403f;
+  }
+  .tag {
+    position: absolute;
+    top: 50px;
+  }
+  .namebox {
+    padding: 80px;
+  }
+  .name {
+    font-size: 21px;
 
-display: flex  ;
-margin-top: 20px;
-position: absolute;
-top: 120px;
-right: 120px;
-}
-.arrowLeft{
-font-size: 40px;
-color: #dbdbdb;
-margin-right: 30px;
-cursor: pointer;
-}
-.arrowRight{
+    color: #3f403f;
+    margin: 30px 0;
+  }
+  .role {
+    font-size: 21px;
 
-font-size: 40px;
-cursor: pointer;
-color: #06942A;
+    color: #9b9b9b;
+  }
+  .image {
+    width: 350px;
+    height: auto;
+  }
+
+  .arrowContainer {
+    display: flex;
+    margin-top: 20px;
+    position: absolute;
+    top: 120px;
+    right: 120px;
+  }
+  .arrowLeft {
+    font-size: 40px;
+    color: #dbdbdb;
+    margin-right: 30px;
+    cursor: pointer;
+  }
+  .arrowRight {
+    font-size: 40px;
+    cursor: pointer;
+    color: #06942a;
+  }
+}
+@media (min-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+  container {
+    margin-top: 15%;
+    position: relative;
+  }
+  .title {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #3f3f3f;
+  }
+  .cardContainer {
+    display: flex;
+    align-items: center;
+  }
+  .testimony {
+    width: 667px;
+    font-family: Graphik;
+    font-size: 18px;
+    line-height: 200%;
+    color: #3f403f;
+  }
+  .tag {
+    position: absolute;
+    top: 50px;
+  }
+  .namebox {
+    padding: 80px;
+  }
+  .name {
+    font-size: 21px;
+
+    color: #3f403f;
+    margin: 30px 0;
+  }
+  .role {
+    font-size: 21px;
+
+    color: #9b9b9b;
+  }
+  .image {
+    width: 350px;
+    height: auto;
+  }
+
+  .arrowContainer {
+    display: flex;
+    margin-top: 20px;
+    position: absolute;
+    top: 120px;
+    right: 120px;
+  }
+  .arrowLeft {
+    font-size: 40px;
+    color: #dbdbdb;
+    margin-right: 30px;
+    cursor: pointer;
+  }
+  .arrowRight {
+    font-size: 40px;
+    cursor: pointer;
+    color: #06942a;
+  }
+}
+@media (min-width: 1281px) {
+  /* hi-res laptops and desktops */
+  container {
+    margin-top: 15%;
+    position: relative;
+  }
+  .title {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #3f3f3f;
+  }
+  .cardContainer {
+    display: flex;
+    align-items: center;
+  }
+  .testimony {
+    width: 667px;
+    font-family: Graphik;
+    font-size: 18px;
+    line-height: 200%;
+    color: #3f403f;
+  }
+  .tag {
+    position: absolute;
+    top: 50px;
+  }
+  .namebox {
+    padding: 80px;
+  }
+  .name {
+    font-size: 21px;
+
+    color: #3f403f;
+    margin: 30px 0;
+  }
+  .role {
+    font-size: 21px;
+
+    color: #9b9b9b;
+  }
+  .image {
+    width: 350px;
+    height: auto;
+  }
+
+  .arrowContainer {
+    display: flex;
+    margin-top: 20px;
+    position: absolute;
+    top: 120px;
+    right: 120px;
+  }
+  .arrowLeft {
+    font-size: 40px;
+    color: #dbdbdb;
+    margin-right: 30px;
+    cursor: pointer;
+  }
+  .arrowRight {
+    font-size: 40px;
+    cursor: pointer;
+    color: #06942a;
+  }
 }

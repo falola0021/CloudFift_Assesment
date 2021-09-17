@@ -1,49 +1,247 @@
-.container{
- 
-      background: url(../../assets/images/getstarted.png) ;
-    background-size: cover;
+.container {
+  background: url(../../assets/images/getstarted.png);
+  background-size: cover;
   background-position: center center;
   position: relative;
-  
-height:"auto";
+
+  height: 'auto';
   width: 100%;
- margin-top: 15%;
- margin-bottom: 15%;
- padding-bottom: 8%;
- padding-top: 8%;
- align-items: center;
- border-radius: 30px;
- 
- 
-  
-
+  margin-top: 15%;
+  margin-bottom: 15%;
+  padding-bottom: 8%;
+  padding-top: 8%;
+  align-items: center;
+  border-radius: 30px;
 }
-.title{
-font-style: normal;
-font-weight: bold;
-font-size: 48px;
+.title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
 
-color: #FFFFFF;
-
-
+  color: #ffffff;
 }
-.sub{
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-margin:20px auto;
-color: #FFFFFF;
+.sub {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 20px auto;
+  color: #ffffff;
 }
-.button{
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-display: inline-block;
-padding:12px 70px;
-cursor: pointer;
-background: #06942A;
-box-shadow: 0px 10px 30px rgba(6, 148, 42, 0.12);
-border-radius: 50px;
-color: #FFFFFF;
-cursor: pointer;
+.button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  display: inline-block;
+  padding: 12px 70px;
+  cursor: pointer;
+  background: #06942a;
+  box-shadow: 0px 10px 30px rgba(6, 148, 42, 0.12);
+  border-radius: 50px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+@media (min-width: 320px) {
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+
+  .container {
+    height: 'auto';
+
+    margin-top: 25%;
+    margin-bottom: 15%;
+    padding-bottom: 22%;
+    padding-top: 22%;
+    align-items: center;
+    border-radius: 10px;
+    padding-left: 10px;
+  }
+  .title {
+    font-size: 30px;
+
+    color: #ffffff;
+  }
+  .button {
+    padding: 12px 60px;
+  }
+}
+@media (min-width: 480px) {
+  /* smartphones, Android phones, landscape iPhone */
+  .container {
+    height: 'auto';
+
+    margin-top: 25%;
+    margin-bottom: 15%;
+    padding-bottom: 22%;
+    padding-top: 22%;
+    align-items: center;
+    border-radius: 10px;
+    padding-left: 10px;
+  }
+  .title {
+    font-size: 30px;
+
+    color: #ffffff;
+  }
+  .button {
+    padding: 12px 60px;
+  }
+}
+@media (min-width: 600px) {
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+
+  .container {
+    height: 'auto';
+
+    margin-top: 25%;
+    margin-bottom: 15%;
+    padding-bottom: 22%;
+    padding-top: 22%;
+    align-items: center;
+    border-radius: 10px;
+    padding-left: 10px;
+  }
+  .title {
+    font-size: 30px;
+
+    color: #ffffff;
+  }
+  .button {
+    padding: 12px 60px;
+  }
+}
+@media (min-width: 801px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+
+  .container {
+    background: url(../../assets/images/getstarted.png);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+
+    height: 'auto';
+    width: 100%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    padding-bottom: 8%;
+    padding-top: 8%;
+    align-items: center;
+    border-radius: 30px;
+  }
+  .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+
+    color: #ffffff;
+  }
+  .sub {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 20px auto;
+    color: #ffffff;
+  }
+  .button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    display: inline-block;
+    padding: 12px 70px;
+    cursor: pointer;
+    background: #06942a;
+    box-shadow: 0px 10px 30px rgba(6, 148, 42, 0.12);
+    border-radius: 50px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+}
+@media (min-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+  .container {
+    background: url(../../assets/images/getstarted.png);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+
+    height: 'auto';
+    width: 100%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    padding-bottom: 8%;
+    padding-top: 8%;
+    align-items: center;
+    border-radius: 30px;
+  }
+  .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+
+    color: #ffffff;
+  }
+  .sub {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 20px auto;
+    color: #ffffff;
+  }
+  .button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    display: inline-block;
+    padding: 12px 70px;
+    cursor: pointer;
+    background: #06942a;
+    box-shadow: 0px 10px 30px rgba(6, 148, 42, 0.12);
+    border-radius: 50px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+}
+@media (min-width: 1281px) {
+  /* hi-res laptops and desktops */
+  .container {
+    background: url(../../assets/images/getstarted.png);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+
+    height: 'auto';
+    width: 100%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    padding-bottom: 8%;
+    padding-top: 8%;
+    align-items: center;
+    border-radius: 30px;
+  }
+  .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+
+    color: #ffffff;
+  }
+  .sub {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 20px auto;
+    color: #ffffff;
+  }
+  .button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    display: inline-block;
+    padding: 12px 70px;
+    cursor: pointer;
+    background: #06942a;
+    box-shadow: 0px 10px 30px rgba(6, 148, 42, 0.12);
+    border-radius: 50px;
+    color: #ffffff;
+    cursor: pointer;
+  }
 }

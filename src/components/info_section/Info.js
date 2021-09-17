@@ -41,21 +41,21 @@ export default function Info() {
       <Col>
         <img className={Style.image} src={Partners} />
         {/* <Row className={Style.row}>
-                                                                                <Col sm={3}>
-                                                                                <img src={Image4} className={Style.image} alt='image' />
-                                                                                <img src={Image5} className={Style.image} alt='image' />
-                                                                                </Col>
-                                                                                <Col sm={2}>
-                                                                                <img src={Image1} className={Style.image} alt='image' />
-                                                                                <img src={Image2} className={Style.image} alt='image' />
-                                                                                <img src={Image3} className={Style.image} alt='image' />
-                                                                                </Col>
-                                                                                <Col sm={2}>
-                                                                                <img src={Image7} className={Style.image} alt='image' />
-                                                                                <img src={Image8} className={Style.image} alt='image' />
-                                                                                <img src={Image6} className={Style.image} alt='image' />
-                                                                                </Col>
-                                                                              </Row> */}
+                                                                                                <Col sm={3}>
+                                                                                                <img src={Image4} className={Style.image} alt='image' />
+                                                                                                <img src={Image5} className={Style.image} alt='image' />
+                                                                                                </Col>
+                                                                                                <Col sm={2}>
+                                                                                                <img src={Image1} className={Style.image} alt='image' />
+                                                                                                <img src={Image2} className={Style.image} alt='image' />
+                                                                                                <img src={Image3} className={Style.image} alt='image' />
+                                                                                                </Col>
+                                                                                                <Col sm={2}>
+                                                                                                <img src={Image7} className={Style.image} alt='image' />
+                                                                                                <img src={Image8} className={Style.image} alt='image' />
+                                                                                                <img src={Image6} className={Style.image} alt='image' />
+                                                                                                </Col>
+                                                                                              </Row> */}
       </Col>
     </Row>
   );

@@ -84,10 +84,8 @@ export default function Home() {
         <Popular />
       </Container>
       <Info />
-      <Container>
-        <Testimonia />
-        <Start />
-      </Container>
+      <Testimonia />
+      <Start />
     </div>
   );
 }
