@@ -1,0 +1,64 @@
+.container{
+    margin-top: 15%;
+    position: relative;
+}
+.title{
+    font-size: 36px;
+margin-bottom: 30px;
+color: #3f3f3f;
+}
+.cardContainer{
+    display: flex;
+    align-items: center;
+}
+.testimony{
+    width: 667px;
+    font-family: Graphik;
+font-size: 18px;
+line-height: 200%;
+color: #3F403F;
+
+}
+.tag{
+position: absolute;
+    top:50px
+}
+.namebox{
+    padding: 80px;
+}
+.name{
+    font-size: 21px;
+
+color: #3F403F;
+margin:30px 0
+}
+.role{
+    font-size: 21px;
+
+color: #9B9B9B;
+}
+.image{
+    width: 350px;
+    height: auto;
+}
+
+.arrowContainer{
+
+display: flex  ;
+margin-top: 20px;
+position: absolute;
+top: 120px;
+right: 120px;
+}
+.arrowLeft{
+font-size: 40px;
+color: #dbdbdb;
+margin-right: 30px;
+cursor: pointer;
+}
+.arrowRight{
+
+font-size: 40px;
+cursor: pointer;
+color: #06942A;
+}

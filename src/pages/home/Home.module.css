@@ -1,0 +1,134 @@
+.layer{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    /* max-height: 200px !important; */
+}
+.leftContainer{
+ margin-top: 14%; 
+ padding-left: 4%;
+ padding-right: 4%;
+
+}
+.findJob{
+line-height: 55px;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 55px;
+color: #3F403F;
+margin-bottom: 22px;
+
+}
+.job{
+    color:  #06942A;
+}
+.text{
+margin-bottom: 30px;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 200%;
+}
+.inputBox{
+    background: #fff;
+border: 1px solid #E5E5E5;
+
+display:inline-block;
+box-sizing: border-box; 
+padding-left: 20px;
+width: 100%;
+box-shadow: 0px 10px 30px rgba(6, 148, 42, 0.04); 
+border-radius: 50px;
+
+}
+.input1{
+    border: none;
+    outline: none;
+    height: 45px;
+    width: 52%;
+    border-right: 1px solid #E5E5E5;
+}
+.input1::placeholder{
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 150%;
+color: #9B9B9B;
+}
+
+.input2{
+    border: none;
+    outline: none;
+    height: 45px;
+    width: 32%;
+    border-right: 1px solid #E5E5E5;
+}
+.input2::placeholder{
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 150%;
+color: #9B9B9B;
+}
+
+.location{
+    margin-left: 18px;
+    margin-right: 4px;
+    color: #C4C4C4;
+   
+}
+
+.searchBox{
+    color: #fff;
+   background: #06942A;
+    padding:0.75% 1.5%;
+   border-top-right-radius: 50px; 
+border-bottom-right-radius: 50px;
+cursor: pointer;
+position: absolute;
+}
+
+.rightContainer{
+margin-top: 40px;
+}
+
+.image{
+ width: 100%; 
+ 
+   border-radius: 20px;
+}
+
+.bottomVal{
+margin-top: 60px;
+}
+
+.trustBy{
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+color: #3F403F;
+
+}
+
+.trustImagep{
+width: 150px;
+height: auto;
+margin-right: 10px;
+
+}
+.trustImageg{
+width: 150px;
+height: auto;
+margin-right: 10px;
+
+}
+.trustImagek{
+width: 120px;
+height: auto;
+margin-right: 10px;
+
+}
+
+
+

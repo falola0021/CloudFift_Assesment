@@ -1,0 +1,42 @@
+.navContainer{
+    margin-top: 5px;
+  background: transparent;
+}
+
+.navBrand{
+    margin-right: 13%;
+    margin-top: 10px;
+
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+}
+
+.navLink{
+font-style: normal;
+font-weight: normal;
+font-size: 16px !important;
+color: #3F403F !important;
+margin-right: 20px;
+}
+.navLink:hover{
+    text-decoration: underline;
+}
+.navLinkSignUp{
+   font-style: normal;
+font-weight: normal;
+font-size: 16px !important;
+background: rgba(6, 148, 42, 0.2);
+color: #06942A !important;
+padding-left: 50px !important;
+padding-right: 50px !important;
+border-radius: 55px;
+vertical-align: middle !important;
+align-items: center !important;
+
+text-align: center !important;
+
+
+}

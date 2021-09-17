@@ -1,0 +1,52 @@
+.container{
+  background: rgba(6, 148, 42, 0.05);
+    margin-left: 10%;
+    margin-top: 10%;
+    padding: 8% 5%;
+}
+.title1{
+    font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 150%;
+/* or 54px */
+
+
+color: #3F403F;
+}
+.text1{
+    font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 200%;
+margin-top: 20px;
+color: #3F403F;
+}
+.learn{
+    display: flex;
+    text-align: center;
+cursor: pointer;
+align-items: center;
+}
+.learntext{
+    font-size: 16px;
+padding: o;
+background: rgba(6, 148, 42, 0.14);
+color: #06942A;
+
+
+}
+.icon{
+  color: #06942A;  
+  margin-left: 10px;
+  font-size: 30px;
+}
+.imagebox{
+    /* width: 0%;
+    height: auto; */
+}
+
+.image{
+    width:100%;
+    height: auto;
+}

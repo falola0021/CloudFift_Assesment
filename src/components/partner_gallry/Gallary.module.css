@@ -1,0 +1,36 @@
+
+.container{
+ vertical-align: middle;
+ align-items: center;
+}
+.box{
+    margin-top: 40px;
+    background: #FFFFFF;
+border-radius: 20px 20px 20px 20px;
+border: 1px solid rgba(218, 218, 218,0.3);
+background-color: #fff;
+
+align-items: center !important;
+    text-align: center !important;
+}
+
+.text{
+    
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+margin-top: 40px;
+margin-bottom: 40px;
+
+}
+
+.text span{
+    color: #06942A;
+}
+
+.img{
+    width: 100%;
+   border-radius: 20px 20px 0px 0px;
+   min-height: auto;
+}
