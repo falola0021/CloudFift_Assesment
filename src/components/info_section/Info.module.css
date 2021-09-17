@@ -1,52 +1,106 @@
-.container{
+.container {
   background: rgba(6, 148, 42, 0.05);
-    margin-left: 10%;
-    margin-top: 10%;
-    padding: 8% 5%;
+  margin-left: 10%;
+  margin-top: 10%;
+  padding: 8% 5%;
 }
-.title1{
-    font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 150%;
-/* or 54px */
+.title1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 150%;
+  /* or 54px */
 
-
-color: #3F403F;
+  color: #3f403f;
 }
-.text1{
-    font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 200%;
-margin-top: 20px;
-color: #3F403F;
+.text1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 200%;
+  margin-top: 20px;
+  color: #3f403f;
 }
-.learn{
-    display: flex;
-    text-align: center;
-cursor: pointer;
-align-items: center;
+.learn {
+  display: flex;
+  text-align: center;
+  cursor: pointer;
+  align-items: center;
 }
-.learntext{
-    font-size: 16px;
-padding: o;
-background: rgba(6, 148, 42, 0.14);
-color: #06942A;
-
-
+.learntext {
+  font-size: 16px;
+  padding: o;
+  background: rgba(6, 148, 42, 0.14);
+  color: #06942a;
 }
-.icon{
-  color: #06942A;  
+.icon {
+  color: #06942a;
   margin-left: 10px;
   font-size: 30px;
 }
-.imagebox{
-    /* width: 0%;
+.imagebox {
+  /* width: 0%;
     height: auto; */
 }
 
-.image{
-    width:100%;
-    height: auto;
+.image {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+@media (min-width: 320px) {
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+
+  .container {
+    background: rgba(6, 148, 42, 0.05);
+    margin-left: 0%;
+    margin-top: 0%;
+    padding: 8% 5%;
+  }
+}
+@media (min-width: 480px) {
+  /* smartphones, Android phones, landscape iPhone */
+  .container {
+    background: rgba(6, 148, 42, 0.05);
+    margin-left: 0%;
+    margin-top: 10%;
+    padding: 8% 5%;
+  }
+}
+@media (min-width: 600px) {
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  .container {
+    background: rgba(6, 148, 42, 0.05);
+    margin-left: 0%;
+    margin-top: 10%;
+    padding: 8% 5%;
+  }
+}
+@media (min-width: 801px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  .container {
+    background: rgba(6, 148, 42, 0.05);
+    margin-left: 10%;
+    margin-top: 10%;
+    padding: 8% 5%;
+  }
+}
+@media (min-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+  .container {
+    background: rgba(6, 148, 42, 0.05);
+    margin-left: 10%;
+    margin-top: 10%;
+    padding: 8% 5%;
+  }
+}
+@media (min-width: 1281px) {
+  /* hi-res laptops and desktops */
+  .container {
+    background: rgba(6, 148, 42, 0.05);
+    margin-left: 10%;
+    margin-top: 10%;
+    padding: 8% 5%;
+  }
 }
